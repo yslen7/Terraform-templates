@@ -25,7 +25,7 @@ The code was built with Azure CLI version 2.24.0 and Terraform v1.0.1
 ## Build
 1. Change variables in `terraform.tfvars` and change or add more `.tf` files if needed
 2. Execute the command `terraform init` and then `terraform plan` on Powershell terminal
-3. Execute `terraform apply --auto-approve`. The following resources are created: Application Insights, App Service, App Service Plan, Function App, Azure Cosmos DB account and Storage Account
+3. Execute `terraform apply --auto-approve`. The following resources are created: Application Insights, App Service, App Service Plan, Function App, Azure Cosmos DB account, CDN, Storage Account and an Azure DevOps build
 4. If you want to delete all the resources created by Terraform, run `terraform destroy --auto-approve` 
 
 ## Additional Resources
